@@ -1860,15 +1860,15 @@
  	 	 	 	"eng": "Inventory"
  	 	 	},
  	 	 	"changePicture": {
- 	 	 	 	"trans": "사용자 정의 프로필 이미지는 기부자 독점 기능입니다",
+ 	 	 	 	"trans": "사용자 정의 프로필 이미지는 후원자 독점 기능입니다",
  	 	 	 	"eng": "Custom profile image is a donator exclusive feature"
  	 	 	},
  	 	 	"changePictureDescription": {
- 	 	 	 	"trans": "과금 없이도 최고의 경험을 느낄 수 있게 해 드리려면, 모든 과금 기능은 프로필 이미지, 채팅프레임 같은 장식적인 기능이여야 합니다. \n                                                 아니면 모든 사람들에게 이익을 주는 글로벌 버프 같은 것이든지요 :) \n                                                 당신이 과금 없이도 재밌게 즐기기를 바랍니다!",
+ 	 	 	 	"trans": "무과금 유저가 플레이 도중 차별감을 느끼지 않도록, 과금으로서 얻을 수 있는 기능을 프로필 이미지, 채팅 프레임 같은 장식적인 기능으로 제한하였습니다. \n                                                  혹은 글로벌 버프로 모든 유저들에게 여러가지 이점을 줄 수도 있죠 :) \n                                   당신의 플레이가 금액에 상관없이 즐겁길 바랍니다!",
  	 	 	 	"eng": "To provide the best No Pay-to-Win experience to you, it is necessary that all paid features are cosmetic like profile images & chat frames, \n                                                or global buffs that benefits everyone in game :)\n                                                Hope you enjoy the No Pay-to-Win experience!"
  	 	 	},
  	 	 	"confirm": {
- 	 	 	 	"trans": "지금 기부하세요",
+ 	 	 	 	"trans": "지금 후원하세요",
  	 	 	 	"eng": "Donate now"
  	 	 	}
  	 	},
@@ -2500,7 +2500,7 @@
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "오래된 잠금 상자를 발견했습니다. 포스트잇에 어떤 텍스트가 써져있는 것 같네요.",
+ 	 	 	 	"trans": "오래된 잠금 상자를 발견했습니다. 무언가 적혀있는 포스트잇이 붙어있군요",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
@@ -2921,7 +2921,7 @@
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "글로벌 스킵을 통해 AFK 대기 시간을 건너뛰고 즉시 완료할 수 있습니다. \n     이 효과는 AFK 작업을 수행하는 모든 플레이어에게 적용됩니다",
+ 	 	 	 	 	"trans": "글로벌 스킵을 통해 AFK 작업시간을 스킵하고 즉시 완료할 수 있습니다. \n     이 효과는 AFK 작업을 수행중인 전 세계의 모든 플레이어에게 적용됩니다",
  	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -2938,7 +2938,7 @@
  	 	 	 	 	 	"timeSkipItemName",
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${timeSkipItemName}을 사용하여 ${itemSkipMinutes}을 건너 뜁니다",
+ 	 	 	 	 	"trans": "${timeSkipItemName}을 사용하여 ${itemSkipMinutes}을 스킵합니다",
  	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
  	 	 	 	}
  	 	 	},
@@ -2951,12 +2951,12 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"skippingPlayerCount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${skippingPlayerCount} 명의 유저 가속중 ..",
+ 	 	 	 	 	"trans": "${skippingPlayerCount} 명의 유저 스킵 중 ..",
  	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "글로벌 스킵을 통해 AFK 대기시간을 건너뛰고 즉시 완료할 수 있습니다. \n     이 효과는 AFK 작업을 수행하는 모든 플레이어에게 적용됩니다",
+ 	 	 	 	"trans": "글로벌 스킵을 통해 AFK 작업시간을 스킵하고 즉시 완료할 수 있습니다. \n     이 효과는 AFK 작업을 수행중인 전 세계의 모든 플레이어에게 적용됩니다",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all players performing an AFK task"
  	 	 	},
  	 	 	"confirmModal": {
@@ -2965,7 +2965,7 @@
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "글로벌 스킵은 모든 플레이어의 AFK 작업의 대기 시간을 건너뜁니다",
+ 	 	 	 	 	"trans": "글로벌 스킵은 모든 플레이어의 진행중인 AFK 작업시간을 스킵해줍니다",
  	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
  	 	 	 	}
  	 	 	}
@@ -3988,11 +3988,11 @@
  	 	 	},
  	 	 	"goodReview": {
  	 	 	 	"title1": {
- 	 	 	 	 	"trans": "와우, 감사합니다! 이것을 스토어 페이지에도 남겨서 그것을 공식적으로 만들어주세요 :)",
+ 	 	 	 	 	"trans": "와우, 감사합니다! 스토어 페이지를 방문하셔서 리뷰를 남겨주세요 :)",
  	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
  	 	 	 	},
  	 	 	 	"title2": {
- 	 	 	 	 	"trans": "당신의 좋은 리뷰는 저에게 큰 도움이 되어 주고, 더 많은 플레이어가 커뮤니티에 들어올 수 있게 해줍니다!",
+ 	 	 	 	 	"trans": "당신의 리뷰는 제게 큰 도움이 되며 더 많은 플레이어가 커뮤니티에 참가하게 돕습니다!",
  	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
  	 	 	 	}
  	 	 	},
@@ -4124,7 +4124,7 @@
  	 	 	},
  	 	 	"agreeToggle": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "나는 이해를 했고 채팅 규칙을 결코 어기지 않을 것입니다",
+ 	 	 	 	 	"trans": "모든 항목을 이해했으며 올바른 채팅 규칙을 준수하겠습니다.",
  	 	 	 	 	"eng": "I understand and I will never spam or break any of the chat rules"
  	 	 	 	}
  	 	 	}
@@ -4167,7 +4167,7 @@
  	 	 	 	"eng": "Unofficial translation"
  	 	 	},
  	 	 	"description1": {
- 	 	 	 	"trans": "이 게임은 한 사람에 의해서 만들어졌습니다. 모든 언어를 올바르게 번역하는 것은 매우 어려운 일이지만, 더 많은 번역을 추가하는 작업을 수행하고 있습니다 :)",
+ 	 	 	 	"trans": "이 게임은 단일 제작자가 개발하였기에 모든 언어에 맞는 적합한 번역에 있어 난황을 겪고 있습니다. 그래도 꾸준히 노력하고 있어요  :)",
  	 	 	 	"eng": "As this game is made by only one person, it's very difficult translate all languages correctly, but I am working on adding more translations :)"
  	 	 	},
  	 	 	"description": {
@@ -4379,7 +4379,7 @@
  	 	 	},
  	 	 	"useItem": {
  	 	 	 	"localFightCantUseItem": {
- 	 	 	 	 	"trans": "주변의 적과 전투 중에는 아이템을 사용할 수 없으며 던전에서만 사용할 수 있습니다",
+ 	 	 	 	 	"trans": "길거리의 적과 전투 중에는 아이템을 사용할 수 없으며 오직 던전에서만 가능합니다",
  	 	 	 	 	"eng": "You cannot use item during street fights, items are only available during dungeons"
  	 	 	 	}
  	 	 	}
@@ -4424,11 +4424,11 @@
  	 	},
  	 	"paypal": {
  	 	 	"paypalBonusTitle": {
- 	 	 	 	"trans": "모든 페이팔 구매는 10%의 추가 유닛을 증정합니다!",
+ 	 	 	 	"trans": "모든 페이팔 결제시 10%의 추가 유닛을 증정합니다!",
  	 	 	 	"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser."
  	 	 	},
  	 	 	"paypalBonus": {
- 	 	 	 	"trans": "페이팔 구매시 10% 더 많은 유닛을 추가로 받게됩니다",
+ 	 	 	 	"trans": "페이팔 결제시 10% 더 많은 유닛을 추가로 받게됩니다",
  	 	 	 	"eng": "You will receive additional 10% more Units with paypal purchase"
  	 	 	}
  	 	},
@@ -4452,7 +4452,7 @@
  	 	 	 	"eng": "Player contributed content"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "GitHub 페이지에서 Config 파일을 편집하여 아이탬의 도시전설에 기여할 수 있습니다.",
+ 	 	 	 	"trans": "GitHub 에서 Config 파일을 편집하여 아이템의 도시전설 항목 작성에 기여할 수 있습니다.",
  	 	 	 	"eng": "You can contribute to the lore of items too by editing the config file in our GitHub page."
  	 	 	},
  	 	 	"confirm": {
@@ -4667,7 +4667,7 @@
  	 	"donation1": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "\"회원\"기부 타이틀",
+ 	 	 	 	 	"trans": "\"회원\"후원 타이틀",
  	 	 	 	 	"eng": "\"Member\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -4683,7 +4683,7 @@
  	 	"donation2": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "\"기부자\"기부 타이틀",
+ 	 	 	 	 	"trans": "\"후원자\"후원 타이틀",
  	 	 	 	 	"eng": "\"Donator\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -4703,7 +4703,7 @@
  	 	"donation3": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "\"엘리트\"기부 타이틀",
+ 	 	 	 	 	"trans": "\"엘리트\"후원 타이틀",
  	 	 	 	 	"eng": "\"Elite\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -4743,7 +4743,7 @@
  	 	"donation4": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "\"전설\"기부 타이틀",
+ 	 	 	 	 	"trans": "\"전설\"후원 타이틀",
  	 	 	 	 	"eng": "\"Legendary\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -4787,7 +4787,7 @@
  	 	 	 	 	"eng": "Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"2": {
- 	 	 	 	 	"trans": "\"사이버네틱 감자\"기부 타이틀",
+ 	 	 	 	 	"trans": "\"사이버네틱 감자\"후원 타이틀",
  	 	 	 	 	"eng": "\"Cybernetic Potato\" donation title"
  	 	 	 	},
  	 	 	 	"3": {
@@ -4835,7 +4835,7 @@
  	 	"donation6": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "\"프레스티지\"기부 타이틀",
+ 	 	 	 	 	"trans": "\"프레스티지\"후원 타이틀",
  	 	 	 	 	"eng": "\"Prestige\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
